@@ -23,8 +23,9 @@ catBody.whatCatDoes = function(){
     catImage.src = image;
       $("#catReact").text(randomResponse);
     } else {
-      image = "img/angry-white-cat-head.png";
+      image = "img/angry-white-cat-head-800.png";
         catImage.src = image;
+        $("#catImage").effect("shake");
 $("#catReact").text("YOU'RE FUCKED, DUDE.");
    }
 };
