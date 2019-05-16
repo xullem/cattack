@@ -3,7 +3,10 @@ $(document).ready(function(){
 var catBody = {};
 //making an array for the catResponses which is a property of catBody
 catBody.catResponses = ["The cat purrs.", "CAT ATTACK", "The cat meows.", "You get a sweet kitty blink.", "The cat rolls over.", "CAT ATTACK"];
-
+//connecting html cat img to js
+var catImage = document.getElementById('catImage');
+var image = "img/nice-cat.png";
+catImage.src = image;
 //making a method for catBody.whatCatDoes
 catBody.whatCatDoes = function(){
 //assigning random number
@@ -16,9 +19,14 @@ catBody.whatCatDoes = function(){
   var randomResponse = this.catResponses[randomIndex];
 //jquery to return results to html
   if (randomResponse != "CAT ATTACK")
-    {$("#catReact").text(randomResponse);
-    } else{
-$("#catReact").text("YOU'RE FUCKED, DUDE.");}
+    { var image = "img/nice-cat.png";
+    catImage.src = image;
+      $("#catReact").text(randomResponse);
+    } else {
+      image = "img/angry-white-cat.png";
+        catImage.src = image;
+$("#catReact").text("YOU'RE FUCKED, DUDE.");
+   }
 };
 //link the button
 var petTheCat = document.getElementById('petTheCat');
@@ -27,6 +35,7 @@ var whereToPetCat = function()
 {
   petTheCat = prompt("Where would you like to pet the cat?");
   catBody.whatCatDoes();
+
 };
 //use jquery to link button to fire it's function with a click
 $("#petTheCat").click(whereToPetCat);
