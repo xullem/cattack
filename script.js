@@ -23,7 +23,7 @@ catBody.whatCatDoes = function(){
     catImage.src = image;
       $("#catReact").text(randomResponse);
     } else {
-      image = "img/angry-white-cat.png";
+      image = "img/angry-white-cat-head.png";
         catImage.src = image;
 $("#catReact").text("YOU'RE FUCKED, DUDE.");
    }
