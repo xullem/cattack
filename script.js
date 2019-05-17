@@ -22,7 +22,7 @@ catBody.whatCatDoes = function(){
     { var image = "img/nice-cat-800.png";
       catImage.src = image;
       $("#catReact").text(randomResponse);
-      $("#catReact").fadeIn(3000);
+    //  $("#catReact").fadeIn(3000);
     } else {
       image = "img/angry-white-cat-head-800.png";
         catImage.src = image;
