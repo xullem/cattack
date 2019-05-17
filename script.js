@@ -19,14 +19,14 @@ catBody.whatCatDoes = function(){
   var randomResponse = this.catResponses[randomIndex];
 //jquery to return results to html
   if (randomResponse != "CAT ATTACK")
-    { var image = "img/nice-cat.png";
+    { var image = "img/nice-cat-800.png";
     catImage.src = image;
       $("#catReact").text(randomResponse);
     } else {
       image = "img/angry-white-cat-head-800.png";
         catImage.src = image;
         $("#catImage").effect("shake");
-$("#catReact").text("YOU'RE FUCKED, DUDE.");
+$("#catReact").text("CAT ATTACK!!!");
    }
 };
 //link the button

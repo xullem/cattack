@@ -1,3 +1,33 @@
 body {
-background: yellow;
+background: #419D78;
+}
+
+
+
+h1 {
+font-family: 'Raleway', sans-serif;
+}
+
+#petTheCat{
+  background:#FF8552;
+  color: #EAFDF8;
+  font-family: 'Ultra', serif;
+  font-size: 40px;
+  height:100px;
+  width: 350px;
+  margin-left: 450px;
+  margin-top: 20px;
+  border: 3px solid #EAFDF8;
+  border-radius: 20px;
+
+}
+
+#catReact {
+  color: #EAFDF8;
+  text-align: center;
+
+}
+
+.imageContainer {
+  text-align: center;
 }
