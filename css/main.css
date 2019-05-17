@@ -4,8 +4,12 @@ background: #419D78;
 
 
 
-h1 {
+h1, p {
 font-family: 'Raleway', sans-serif;
+}
+
+p{
+  text-align: center;
 }
 
 #petTheCat{
