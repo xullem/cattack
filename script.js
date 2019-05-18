@@ -1,6 +1,10 @@
 $(document).ready(function(){
 //declaring object of cat body
 var catBody = {};
+var catSound = document.getElementById('#catSound'.src)
+
+var audio = new Audio('angry-cat-sounds.mp3');
+
 //making an array for the catResponses which is a property of catBody
 catBody.catResponses = ["The cat purrs.", "CAT ATTACK", "The cat meows.", "You get a sweet kitty blink.", "The cat rolls over.", "CAT ATTACK"];
 //connecting html cat img to js
@@ -28,7 +32,8 @@ catBody.whatCatDoes = function(){
         catImage.src = image;
         $("#catImage").effect("shake");
 $("#catReact").text("CAT ATTACK!!!");
-document.getElementById("#catSound".src).play();
+//document.getElementById("#catSound".src).play();
+audio.play();
    }
 };
 //link the button
