@@ -28,6 +28,7 @@ catBody.whatCatDoes = function(){
         catImage.src = image;
         $("#catImage").effect("shake");
 $("#catReact").text("CAT ATTACK!!!");
+document.getElementById("#catSound".src).play();
    }
 };
 //link the button
