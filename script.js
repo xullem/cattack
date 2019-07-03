@@ -6,7 +6,7 @@ var catSound = document.getElementById('#catSound'.src)
 var audio = new Audio('angry-cat-sounds.mp3');
 
 //making an array for the catResponses which is a property of catBody
-catBody.catResponses = ["The cat purrs.", "CAT ATTACK", "The cat meows.", "You get a sweet kitty blink.", "The cat rolls over.", "CAT ATTACK"];
+catBody.catResponses = ["The cat purrs.","The rubs agianst you", "The cat curls up in your lap", "The cat wags it's tail in warning", "The cat licks you with it's sandpaper tongue", "CAT ATTACK", "The cat meows.", "You get a sweet kitty blink.", "The cat rolls over.", "CAT ATTACK"];
 //connecting html cat img to js
 var catImage = document.getElementById('catImage');
 var image = "img/nice-cat.png";

@@ -1,8 +1,32 @@
-body {
-background: #419D78;
+html {
+  width: 100%;
+  font-size: 16px;
 }
 
+body {
+background: #419D78;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items:
 
+
+}
+
+.container {
+  width: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 h1, h2, p {
 font-family: 'Raleway', sans-serif;
@@ -14,24 +38,30 @@ p, h2{
 
 h1, h2 {
   color: #EAFDF8;
-  font-size: 28px;
 }
 
+h1 {
+  font-size: 4.875em;
+}
+
+h2 {
+  font-size: 4em;
+}
 span {
 
   font-family: 'Creepster', cursive;
-  font-size: 56px;
+  font-size: 2em;
+
 }
 
 #petTheCat{
+
   background:#FF8552;
   color: #EAFDF8;
   font-family: 'Ultra', serif;
   font-size: 40px;
   height:100px;
   width: 350px;
-  margin-left: 450px;
-  /*margin-top: 20px;*/
   border: 3px solid #EAFDF8;
   border-radius: 20px;
 
@@ -39,7 +69,10 @@ span {
 
 #catReact {
   color: #EAFDF8;
-  text-align: center;
+  justify-content: center;
+    color: #EAFDF8;
+    width: 100%;
+
 
 }
 
