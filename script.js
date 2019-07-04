@@ -23,12 +23,12 @@ catBody.whatCatDoes = function(){
   var randomResponse = this.catResponses[randomIndex];
 //jquery to return results to html
   if (randomResponse != "CAT ATTACK")
-    { var image = "img/nice-cat-800.png";
+    { var image = "img/nice-cat.png";
       catImage.src = image;
       $("#catReact").text(randomResponse);
     //  $("#catReact").fadeIn(3000);
     } else {
-      image = "img/angry-white-cat-head-800.png";
+      image = "img/angry-white-cat-head.png";
         catImage.src = image;
         $("#catImage").effect("shake");
 $("#catReact").text("CAT ATTACK!!!");
