@@ -6,7 +6,7 @@ html {
 
 body {
 background: #419D78;
-width: 100%;
+width: min-content;
 display: flex;
 justify-content: center;
 align-items: center;
