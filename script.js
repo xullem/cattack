@@ -7,7 +7,7 @@ var catBody = {};
 catBody.catResponses = ["The cat purrs.","The cat rubs against you", "The cat curls up in your lap", "The cat wags it's tail in warning", "The cat licks you with it's sandpaper tongue", "CAT ATTACK", "The cat meows.", "You get a sweet kitty blink.", "The cat rolls over.", "CAT ATTACK"];
 //connecting html cat img to js
 var catImage = document.getElementById('catImage');
-var image = "img/nice-cat.png";
+var image = "img/kitty-crop.png";
 catImage.src = image;
 //making a method for catBody.whatCatDoes
 catBody.whatCatDoes = function(){
@@ -21,7 +21,7 @@ catBody.whatCatDoes = function(){
   var randomResponse = this.catResponses[randomIndex];
 //jquery to return results to html
   if (randomResponse != "CAT ATTACK")
-    { var image = "img/nice-cat.png";
+    { var image = "img/kitty-crop.png";
       catImage.src = image;
       $("#catReact").text(randomResponse);
     //  $("#catReact").fadeIn(3000);
