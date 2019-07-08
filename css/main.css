@@ -53,19 +53,25 @@ span {
 
   font-family: 'Creepster', cursive;
   font-size: 2em;
+  color: #f5a573;
 
 }
 
+
+
+
 #petTheCat{
 
-  background:#FF8552;
-  color: #EAFDF8;
+
+  background: #419d7803;
   font-family: 'Ultra', serif;
   font-size: 40px;
-  height:100px;
-  width: 350px;
-  border: 3px solid #EAFDF8;
-  border-radius: 20px;
+height: 930px;
+width: 100%;
+border: 0px solid #419D78;
+
+
+
 
 }
 
@@ -80,4 +86,14 @@ span {
 
 .imageContainer {
   text-align: center;
+  position: relative;
+
+}
+
+.imageContainer .bttn {
+  position: absolute;
+    top: 0%;
+    left: 0%;
+
+
 }

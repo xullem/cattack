@@ -1,9 +1,7 @@
 $(document).ready(function(){
 //declaring object of cat body
 var catBody = {};
-var catSound = document.getElementById('#catSound'.src)
 
-var audio = new Audio('angry-cat-sounds.mp3');
 
 //making an array for the catResponses which is a property of catBody
 catBody.catResponses = ["The cat purrs.","The cat rubs against you", "The cat curls up in your lap", "The cat wags it's tail in warning", "The cat licks you with it's sandpaper tongue", "CAT ATTACK", "The cat meows.", "You get a sweet kitty blink.", "The cat rolls over.", "CAT ATTACK"];
@@ -32,8 +30,7 @@ catBody.whatCatDoes = function(){
         catImage.src = image;
         $("#catImage").effect("shake");
 $("#catReact").text("CAT ATTACK!!!");
-//document.getElementById("#catSound".src).play();
-audio.play();
+
    }
 };
 //link the button
@@ -41,8 +38,8 @@ var petTheCat = document.getElementById('petTheCat');
 //function that links button to prompt
 var whereToPetCat = function()
 {
-  petTheCat = prompt("Where would you like to pet the cat?");
-  catBody.whatCatDoes();
+//petTheCat = prompt("Where would you like to pet the cat?");
+catBody.whatCatDoes();
 
 };
 //use jquery to link button to fire it's function with a click
